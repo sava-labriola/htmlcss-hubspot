@@ -194,7 +194,7 @@ header {
 }
 
 #sezione1 {
-    height: 820px;
+    height: 880px;
     background-color: #f5f8fa;
 }
 
@@ -246,4 +246,60 @@ header {
 #header-bottom {
     padding-top: 100px;
     height: 50%;
+}
+
+#funzioni {
+    padding-left: 0;
+}
+
+.sottosezione3 {
+    width: 30%;
+    margin: 17px;
+    float: left;
+    background-color: white;
+}
+
+.sottosezione3-top p {
+    padding: 20px;
+}
+
+.primo-p, .terzo-p {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(51, 71, 91);
+}
+
+.secondo-p {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 17px;
+    color: gray;
+}
+.sottosezione3-bottom {
+    margin: auto;
+    width: 85%;
+    border-top: 2px solid lightgray;
+    margin-bottom: 20px;
+}
+
+.sottosezione3-bottom ul li {
+    margin: 0 20px;
+    padding-top: 15px;
+    font-size: 15px;
+    font-family: 'Maven Pro', sans-serif;
+    color: rgb(51, 71, 91);
+
+}
+
+.sottosezione3-bottom a {
+    margin: 20px 0 20px 0px;
+    float: left;
+    text-decoration: none;
+    font-family: 'Maven Pro', sans-serif;
+    color: white;
+    border-radius: 3px;
+    background-color: #ff7a59;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 15px 100px;
 }
