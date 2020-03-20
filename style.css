@@ -30,17 +30,37 @@ header {
 }
 
 .lingua p, .contatti p {
+    cursor: pointer;
     font-family: 'Roboto', sans-serif;
     color: rgb(51, 71, 91);
+    display: inline-block;
 }
+
+.lingua::before {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: bold;
+    content: "\f57d";
+    color: gray;
+    padding-right: 10px;
+  }
+
+.lingua::after {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: bold;
+    content: "\f0dd";
+    color: gray;
+    padding-left: 5px;
+    font-size: 20px;
+  }
 
 .contatti {
     float: left;
-    margin-top: 26px;
+    margin-top: 30px;
     padding: 5px 0 5px 20px;
 }
 
 .free, .login, .cerca {
+    cursor: pointer;
     float: right;
 }
 
@@ -207,6 +227,10 @@ header {
     height: 880px;
 }
 
+#sezione4 {
+    background-color: #33475b;
+}
+
 #sezione2-top {
     padding-top: 120px;
     width: 60%;
@@ -369,6 +393,7 @@ header {
 }
 
 #menu ul li {
+    cursor: pointer;
     display: inline-block;
     margin: 0 20px;
     padding-top: 15px;
@@ -463,4 +488,72 @@ header {
     font-weight: bold;
     font-size: 13px;
     padding: 15px 100px;
+}
+
+.footer-list {
+    float: left;
+    padding-top: 80px;
+    width: 25%;
+}
+
+.footer-list ul {
+    list-style-type: none;
+}
+
+.footer-list ul li {
+    cursor: pointer;
+    padding: 10px 0;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 15px;
+    color: lightgray;
+}
+
+.footer-list ul :first-child {
+    color: white;
+    font-weight: bold;
+}
+
+.contattihubspot {
+    margin-top: 30px;
+    float: right;
+    width: 25%;
+}
+
+.contattihubspot a {
+    width: 250px;
+    display: block;
+    padding: 15px 20px;
+    color: #33475b;
+    background-color: white;
+    text-decoration: none;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.contattihubspot i {
+    padding-top: 20px;
+    margin-right: 25px;
+    float: left;
+    width: 15%;
+    font-size: 20px;
+    color: lightgray;
+}
+
+.footer {
+    margin-bottom: 30px;
+    padding: 0 100px 20px 100px;
+    margin-left: 150px;
+    margin-top: 50px;
+    float: left;
+    border-bottom: 2px solid white;
+}
+
+.footer ul li{
+    cursor: pointer;
+    color: lightgray;
+    padding: 10px;
+    display: inline-block;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
 }
